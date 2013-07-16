@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
 	int iCounter = 0;
 	MediaPlayer mp10;
 	MediaPlayer mp5;
-	MediaPlayer mp3;
+	MediaPlayer mp3; 
 
 	//@Override
 	public void onCreate(Bundle savedInstanceState) {
