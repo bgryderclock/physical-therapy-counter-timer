@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+<LinearLayout
+	android:id="@+id/widgetbigtop"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="15"
+	android:layout_gravity="right">
+
+    <Button
+        android:id="@+id/bStart"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Start"
+        android:textSize="139dip"
+        android:textStyle="normal" />
+    
+</LinearLayout>
+    
+    
+<LinearLayout
+    android:id="@+id/widgetbReset"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1" >
+    
+        <Button
+            android:id="@+id/bReset"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Reset"
+            android:textSize="31dip"
+            android:textStyle="bold" />
+    
+</LinearLayout>
+    
+
+<LinearLayout
+    android:id="@+id/widgetChangeCount"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1" >
+    
+        <Button
+            android:id="@+id/bChangeCount"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="5 Sec Count (Click to change)"
+            android:textSize="18dip"
+            android:textStyle="bold" />
+    
+</LinearLayout>
+    
+
+<LinearLayout
+    android:id="@+id/widgetDonate"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1" >
+    
+        <Button
+            android:id="@+id/bDonate"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="contact/support developer"
+            android:textSize="18dip"
+            android:textStyle="bold" />
+    
+</LinearLayout>
+</LinearLayout>
